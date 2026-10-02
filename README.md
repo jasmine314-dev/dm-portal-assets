@@ -25,8 +25,10 @@ push can never change what the live page shows.
 | `props/mid_century_lounge_chair/*` | 206,747 | [mid_century_lounge_chair](https://polyhaven.com/a/mid_century_lounge_chair) (1k glTF) | geometry `.bin` unchanged; normal map dropped; diffuse 512, ARM 256 |
 | `props/potted_plant_04/*` | 284,523 | [potted_plant_04](https://polyhaven.com/a/potted_plant_04) (1k glTF) | geometry `.bin` unchanged; normal map dropped; diffuse 512, ARM 256 |
 | `props/round_wooden_table_01/*` | 272,252 | [round_wooden_table_01](https://polyhaven.com/a/round_wooden_table_01) (1k glTF) | geometry `.bin` unchanged; normal map dropped; diffuse 512, ARM 256 |
+| `hdri/kloofendal_48d_partly_cloudy_puresky_256.hdr` | 98,575 | [kloofendal_48d_partly_cloudy_puresky](https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky) (1k .hdr) | box-filtered 1024x512 -> 256x128, re-written as RLE RGBE; Day reflections for the gold in the God of Wealth sign-in background |
+| `hdri/qwantani_dusk_2_puresky_256.hdr` | 77,888 | [qwantani_dusk_2_puresky](https://polyhaven.com/a/qwantani_dusk_2_puresky) (1k .hdr) | box-filtered 1024x512 -> 256x128, re-written as RLE RGBE; Night (dusk) reflections for the same scene |
 
-Total payload (every file except this README): **1,453,577 bytes** (budget: under 3 MB).
+Total payload (every file except this README): **1,630,040 bytes** (budget: under 3 MB). The two sky HDRIs added on 2026-10-02 for the God of Wealth background are 176,463 bytes of that; the page no longer loads the office-lobby files above, which stay here only so older pinned commits keep resolving.
 
 ## Licence
 
